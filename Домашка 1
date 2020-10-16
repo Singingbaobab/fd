@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+ <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>Вакансия: Junior Frontend Developer</title>
+ </head>
+ <body>
+  <h1>Вакансия: Junior Frontend Developer</h1>
+  <div><p><img src="https://cdn.lifehacker.ru/wp-content/uploads/2020/01/06_1580285109.jpg" height="100" width="150" alt="Иллюстрация"></p>
+  </div><p>Имя:.....(ваше имя)</p>
+  <p><a href="http://github.com/Singingbaobab/fd">Ссылка на репозиторий в GitHub</a></p>
+  <p>Опыт работы: нет</p></div>
+  <p>Дата собеседования</p> <input type="datetime-local" атрибуты>
+  <form action="Язык">
+    <p><b>Уровень английского</b></p>
+     <p><input name="uroven" type="radio" value="ploho"> Плохо</p>
+     <p><input name="uroven" type="radio" value="sredne"> Средне</p>
+     <p><input name="uroven" type="radio" value="Horosho" checked> Хорошо</p>
+     <p><input name="uroven" type="radio" value="prevoshodno"> Превосходно</p>
+   </form> 
+   <P>Ключевые навыки</P>
+   <p><ul>- HTML</ul></p>
+   <p><ul>- CSS/LESS</ul></p>
+   <p><ul>- JavaScript</ul></p>
+   <p><input name="vvedite" placeholder="Введите навык"></p>
+    <form>
+        <p><input type="button" value="Добавить в список"></p>
+    </form>
+ </body>
+</html>
+</html>
