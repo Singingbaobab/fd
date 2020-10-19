@@ -1,31 +1,97 @@
 <!DOCTYPE html>
 <html>
- <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <title>Вакансия: Junior Frontend Developer</title>
- </head>
- <body>
+</head>
+
+<body>
   <h1>Вакансия: Junior Frontend Developer</h1>
-  <div><p><img src="https://cdn.lifehacker.ru/wp-content/uploads/2020/01/06_1580285109.jpg" height="100" width="150" alt="Иллюстрация"></p>
-  </div><p>Имя:.....(ваше имя)</p>
-  <p><a href="http://github.com/Singingbaobab/fd">Ссылка на репозиторий в GitHub</a></p>
-  <p>Опыт работы: нет</p></div>
-  <p>Дата собеседования</p> <input type="datetime-local" атрибуты>
-  <form action="Язык">
-    <p><b>Уровень английского</b></p>
-     <p><input name="uroven" type="radio" value="ploho"> Плохо</p>
-     <p><input name="uroven" type="radio" value="sredne"> Средне</p>
-     <p><input name="uroven" type="radio" value="Horosho" checked> Хорошо</p>
-     <p><input name="uroven" type="radio" value="prevoshodno"> Превосходно</p>
-   </form> 
-   <P>Ключевые навыки</P>
-   <p><ul>- HTML</ul></p>
-   <p><ul>- CSS/LESS</ul></p>
-   <p><ul>- JavaScript</ul></p>
-   <p><input name="vvedite" placeholder="Введите навык"></p>
+  <span>
+    <span><img src="https://cdn.lifehacker.ru/wp-content/uploads/2020/01/06_1580285109.jpg" height="100" width="150" 
+    alt="Иллюстрация"display: inline;></span> <span>Имя: ...... (ваше имя)</span>
+    <span><a href="http://github.com/Singingbaobab/fd">Ссылка на репозиторий в GitHub</a></span>
+    <span>Опыт работы: нет</span>
+</span>
+<br>
+<br>
+<span>
+  <span>Дата собеседования</span>
+  <span><input type="datetime-local" атрибуты></span> 
+</span>
+<div><form action="Язык">
+  <p><b>Уровень английского</b></p>
+</div>
+  <span>
+    <span><input name="uroven" type="radio" value="ploho"> Плохо</span>
+    <span><input name="uroven" type="radio" value="sredne"> Средне</span>
+    <span><input name="uroven" type="radio" value="Horosho" checked> Хорошо</span>
+    <span><input name="uroven" type="radio" value="prevoshodno"> Превосходно</span>
+  </span>
+<div>
+</form>
+  <P>Ключевые навыки</P>
+  <p><ul>- HTML</ul></p>
+  <p><ul>- CSS/LESS</ul></p>
+  <p><ul>- JavaScript</ul></p>
+</div>
+<span>  
+  <span><input name="vvedite" placeholder="Введите навык"></span>
+  <form>
+    <span><input type="button" value="Добавить в список"></span>
+  </form>
+</span>
+    <br>
+    <br>
+  <form>
+</span>
+  <Span>
+    <span>Коммуникабельность</span>
     <form>
-        <p><input type="button" value="Добавить в список"></p>
-    </form>
- </body>
-</html>
+      <Span><select name="select" size="1" multiple></Span>
+          <option selected value="s1">Круто</option>
+          <option value="s2">Хорошо</option>
+          <option value="s3">Терпимо</option>
+          <option value="s4">Ужасно</option>
+        </select>
+      <form action="handler.php">
+      </Span>
+        <br>
+        <br>
+        <Span>
+        <Span>Желаемая з/п:</Span>
+        <span><input maxlength="25" size="40"></span>
+        </Span>
+      </form>
+      <form action="handler.php">
+        <p>Подходит по критериям</p>
+        <Span>
+          <Span><input type="checkbox" name="a" value="1"> Знание английского</Span>
+          <Span><input type="checkbox" name="a" value="2"> Оклад</Span>
+          <span></span><input type="checkbox" name="a" value="3"> Навыки</span>
+          <span></span><input type="checkbox" name="a" value="4"> Сразу видно, что свой человек</span>
+        </Span>
+      </form>
+      <P>Образование, курсы и т.п.</P>
+      <table border="1">
+        <tr>
+          <th>№</th>
+          <th>Сроки обучения</th>
+          <th>Наименование учебного заведения, курсов</th>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>2010-2011</td>
+          <td>Космические войска</td>
+        <tr>
+          <td>2</td>
+          <td>2011-2012</td>
+          <td>Хогвартс</td>
+        <tr>
+          <td>3</td>
+          <td>2015-2018</td>
+          <td>Партизанский отряд Витебска</td>
+      </table>
+</body>
 </html>
